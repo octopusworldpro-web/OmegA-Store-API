@@ -1,13 +1,12 @@
-const cors = require("cors");
-app.use(cors());
-
 const express = require("express");
 const { MongoClient } = require("mongodb");
+const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 const MONGODB_URI = process.env.MONGODB_URI;
 
+app.use(cors());
 app.use(express.json({ limit: "2mb" }));
 
 let commands;
