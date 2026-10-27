@@ -1,0 +1,14 @@
+
+{
+  "name": "omegastore",
+  "version": "1.0.0",
+  "author": "NirZon",
+  "description": "OmegA Store API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
